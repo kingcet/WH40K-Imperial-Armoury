@@ -1,0 +1,11 @@
+[
+  {
+    "id": "40KArmoury",
+    "type": "MOD_INFO",
+    "name": "Warhammer 40K Imperial Armoury",
+    "authors": [ "Kingcat" ],
+    "description": "Adds Imperial weapons from the Warhammer 40K universe. It was originally made by Wulfle, or so the modinfo says.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
