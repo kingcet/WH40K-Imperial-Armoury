@@ -1,8 +1,8 @@
 [
   {
-    "id": "75bolt",
-    "name": "75mm Bolt",
-    "default": "75bolt",
+    "id": "998bolt",
+    "name": ".998 Bolt",
+    "default": "998bolt",
     "type": "ammunition_type"
   },
   {

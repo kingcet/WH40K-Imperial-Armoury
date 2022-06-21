@@ -4,39 +4,43 @@
     "type": "item_group",
     "//": "Military specification rifles only ever found at military sites.",
     "items": [
-      [ "Godwin_Bolter", 5 ],
+      [ "godwyn_Bolter", 5 ],
       [ "BolterSickleMag_30", 7 ],
 	  [ "MK3storm_bolter", 1 ],
 	  [ "StormBolterMag_100", 2 ],
-      [ "ceres_pistol", 12 ],
+      [ "tigrus_pistol", 12 ],
       [ "BoltPistolMag_9", 15 ],
-      [ "75bolt", 20 ],
+      [ "998bolt", 20 ],
       [ "hellfire_bolt", 4 ],
 	  [ "laspistol_40", 40],
 	  [ "def_laspistol", 40],
 	  [ "M35_lasgun", 30],
 	  [ "lasgun_80", 30],
-	  [ "lasgun_140", 25]
+	  [ "lasgun_140", 25],
+	  [ "plasma_gun_imperial", 5],
+	  [ "plasmaflask10", 10]
     ]
   },
   {
-    "id": "guns_rifle_obscure",
+    "id": "guns_obscure",
     "type": "item_group",
     "//": "Imported or otherwise very obscure rifles.",
     "items": [
-      [ "Godwin_Bolter", 5 ],
+      [ "godwyn_Bolter", 5 ],
       [ "BolterSickleMag_30", 7 ],
 	  [ "MK3storm_bolter", 1 ],
 	  [ "StormBolterMag_100", 2 ],
-      [ "ceres_pistol", 12 ],
+      [ "tigrus_pistol", 12 ],
       [ "BoltPistolMag_9", 15 ],
-      [ "75bolt", 20 ],
+      [ "998bolt", 20 ],
       [ "hellfire_bolt", 4 ],
 	  [ "laspistol_40", 40],
 	  [ "def_laspistol", 40],
 	  [ "M35_lasgun", 30],
 	  [ "lasgun_80", 30],
-	  [ "lasgun_140", 25]
+	  [ "lasgun_140", 25],
+	  [ "plasma_gun_imperial", 5],
+	  [ "plasmaflask10", 10]
 	]
   },
   {
@@ -44,13 +48,13 @@
     "type": "item_group",
     "//": "Military specification guns of all types.",
     "items": [ 
-      [ "Godwin_Bolter", 5 ],
+      [ "godwyn_Bolter", 5 ],
       [ "BolterSickleMag_30", 7 ],
 	  [ "MK3storm_bolter", 1 ],
 	  [ "StormBolterMag_100", 2 ],
-      [ "ceres_pistol", 12 ],
+      [ "tigrus_pistol", 12 ],
       [ "BoltPistolMag_9", 15 ],
-      [ "75bolt", 20 ],
+      [ "998bolt", 20 ],
       [ "hellfire_bolt", 4 ],
 	  [ "laspistol_40", 40],
 	  [ "def_laspistol", 40],
@@ -64,8 +68,8 @@
     "type": "item_group",
     "//": "Guns issued to paramilitary forces in addition to standard police issue.",
     "items": [
-      [ "Godwin_Bolter", 3 ],
-      [ "75bolt", 12 ],
+      [ "godwyn_Bolter", 3 ],
+      [ "998bolt", 12 ],
       [ "BolterSickleMag_30", 5 ],
 	  [ "laspistol_40", 40],
 	  [ "def_laspistol", 40],
@@ -78,8 +82,8 @@
     "id": "cop_armory",
     "type": "item_group",
     "items": [
-      [ "Godwin_Bolter", 3 ],
-      [ "75bolt", 12 ],
+      [ "godwyn_Bolter", 3 ],
+      [ "998bolt", 12 ],
       [ "BolterSickleMag_30", 5 ],
 	  [ "laspistol_40", 40],
 	  [ "def_laspistol", 40],
@@ -87,5 +91,46 @@
 	  [ "lasgun_80", 30],
 	  [ "lasgun_140", 25]
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_pistols",
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "def_laspistol", "prob": 10 },
+	  { "item": "laspistol_40", "prob": 10 }
+	]
+  },
+
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles",
+    "subtype": "distribution",
+    "entries": [ 
+	{ "item": "M35_lasgun", "prob": 20 },
+	  { "item": "lasgun_80", "prob": 20 }
+	]
+  },
+  {
+    "type": "item_group",
+    "id": "military",
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "godwyn_Bolter", "prob": 1 },
+	  { "item": "BolterSickleMag_30", "prob": 1 },
+	  { "item": "MK3storm_bolter", "prob": 1 },
+	  { "item": "StormBolterMag_100", "prob": 1 },
+	  { "item": "tigrus_pistol", "prob": 2 },
+	  { "item": "BoltPistolMag_9", "prob": 2 },
+	  { "item": "998bolt", "prob": 4 },
+	  { "item": "hellfire_bolt", "prob": 1 },
+	  { "item": "laspistol_40", "prob": 6 },
+	  { "item": "def_laspistol", "prob": 6 },
+	  { "item": "M35_lasgun", "prob": 4 },
+	  { "item": "lasgun_80", "prob": 4 },
+	  { "item": "lasgun_140", "prob": 3 },
+	  { "item": "plasma_gun_imperial", "prob": 1 },
+	  { "item": "plasmaflask10", "prob": 1 }
+	]
   }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "BoltPistolMag_9",
     "type": "MAGAZINE",
-    "name": { "str": "9-Round Bolt Pistol Magazine" },
+    "name": { "str": "9-Round Bolt Pistol magazine" },
     "description": "A 9-round magazine for a Bolt Pistol.",
     "weight": "100 g",
     "volume": "500 ml",
@@ -10,15 +10,15 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "75bolt" ],
+    "ammo_type": [ "998bolt" ],
     "capacity": 9,
     "reload_time": 120,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 9 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "998bolt": 9 } } ]
   },
   {
     "id": "BolterSickleMag_30",
     "type": "MAGAZINE",
-    "name": { "str": "30-Round Bolter MAGAZINE" },
+    "name": { "str": "30-Round Bolter magazine" },
     "description": "A 30 round sickle magazine for the holy Bolter.",
     "weight": "200 g",
     "volume": "500 ml",
@@ -26,10 +26,10 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "75bolt" ],
+    "ammo_type": [ "998bolt" ],
     "capacity": 30,
     "reload_time": 280,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 30 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "998bolt": 30 } } ]
   },
   {
     "id": "BolterDrumMag_40",
@@ -42,10 +42,10 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "75bolt" ],
+    "ammo_type": [ "998bolt" ],
     "capacity": 40,
     "reload_time": 300,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 40 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "998bolt": 40 } } ]
   },
   {
     "id": "BolterDrumMag_60",
@@ -58,10 +58,10 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "75bolt" ],
+    "ammo_type": [ "998bolt" ],
     "capacity": 60,
     "reload_time": 300,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 60 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "998bolt": 60 } } ]
   },
   {
     "id": "StormBolterMag_100",
@@ -74,10 +74,10 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": [ "75bolt" ],
+    "ammo_type": [ "998bolt" ],
     "capacity": 100,
     "reload_time": 400,
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "75bolt": 100 } } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "998bolt": 100 } } ]
   },
   {
     "id": "flame_tank",
@@ -145,5 +145,23 @@
     "reload_time": 120,
     "flags": [ "MAG_COMPACT", "NO_UNLOAD", "RECHARGE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "battery": 140 } } ]
+  },
+  {
+    "id": "plasmaflask10",
+    "type": "MAGAZINE",
+    "name": { "str": "10 shot plasma containment flask" },
+    "description": "A plasma containment flask for a plasma gun",
+    "weight": "400 g",
+    "volume": "750 ml",
+    "price": "400 USD",
+    "material": [ "superalloy" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": [ "plasma" ],
+	"looks_like":"hydrogen_tank",
+    "capacity": 10,
+    "reload_time": 1200,
+    "flags": [ "MAG_COMPACT", "NO_UNLOAD" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "plasma": 10 } } ]
   }
 ]

@@ -3,7 +3,7 @@
     "id": "boltgun_casing",
     "type": "GENERIC",
     "category": "spare_parts",
-    "name": { "str": "75mm Boltgun casing" },
+    "name": { "str": ".998 Boltgun casing" },
     "description": "A massive casing from a boltgun",
     "weight": "60 g",
     "volume": "30ml",
